@@ -34,3 +34,5 @@ Branch naming for features: `feat-<short-description>`
 
 - Upstream repo: https://github.com/microsoft/playwright-cli
 - When syncing with upstream: `git fetch upstream && git rebase upstream/main`
+- Personal note: prefer `rebase` over `merge` to keep history linear
+- Run `npm run lint` before committing to catch issues early

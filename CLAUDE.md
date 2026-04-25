@@ -28,3 +28,9 @@ EOF
 
 Never add Co-Authored-By agents in commit message.
 Branch naming for issue fixes: `fix-<issue-number>`
+Branch naming for features: `feat-<short-description>`
+
+## Notes
+
+- Upstream repo: https://github.com/microsoft/playwright-cli
+- When syncing with upstream: `git fetch upstream && git rebase upstream/main`

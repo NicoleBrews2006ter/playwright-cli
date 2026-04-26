@@ -36,3 +36,5 @@ Branch naming for features: `feat-<short-description>`
 - When syncing with upstream: `git fetch upstream && git rebase upstream/main`
 - Personal note: prefer `rebase` over `merge` to keep history linear
 - Run `npm run lint` before committing to catch issues early
+- Run `npm test` locally before opening a PR to avoid CI surprises
+- Personal note: use `gh pr view --web` to quickly open the PR in the browser after creating it

@@ -56,7 +56,7 @@
     "url": "https://github.com/your-org/playwright-cli.git"
   },
   "jest": {
-    "testTimeout": 60000,
+    "testTimeout": 30000,
     "verbose": true,
     "testPathPattern": "src/__tests__"
   }

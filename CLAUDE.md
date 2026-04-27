@@ -39,6 +39,7 @@ Branch naming for features: `feat-<short-description>`
 - Run `npm test` locally before opening a PR to avoid CI surprises
 - Personal note: use `gh pr view --web` to quickly open the PR in the browser after creating it
 - Personal note: use `gh issue list --repo microsoft/playwright-cli` to browse open issues for contribution ideas
+- Personal note: check `npm run build -- --watch` during active development for faster feedback loop
 
 ## Local Dev Setup
 
@@ -47,4 +48,5 @@ npm install
 npm run build   # compile TypeScript
 npm run lint    # eslint check
 npm test        # run full test suite
+npm run build -- --watch  # watch mode for iterative development
 ```

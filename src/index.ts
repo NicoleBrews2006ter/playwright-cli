@@ -24,9 +24,10 @@ import './commands/codegen';
 import './commands/show-trace';
 import './commands/install';
 
-program.parse(process.argv);
-
-// Show help if no command is provided
+// Show help if no command is provided (check before parse so help exits cleanly)
 if (!process.argv.slice(2).length) {
   program.outputHelp();
+  process.exit(0);
 }
+
+program.parse(process.argv);
